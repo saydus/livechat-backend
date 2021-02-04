@@ -1,5 +1,3 @@
-![](header.jpg)
-
 ## CDK AppSync Chat
 
 This CDK project deploys an AppSync API, Amazon DynamoDB tables, and an Amazon Cognito User Pool configured to create the infrastructure for a chat application. It is paired with a React front-end for a full-stack serverless project.
@@ -37,7 +35,7 @@ Outputs:
 CdkAppsyncChatStack.UserPoolClientId = 4tojuqrgrctupmj28812nmgi2t
 CdkAppsyncChatStack.UserPoolId = us-east-1_vS2Qv9tob
 CdkAppsyncChatStack.GraphQLAPIURL = https://w6eiaujspbbcvovbqzn2w4zxhu.appsync-api.us-east-1.amazonaws.com/graphql
-  ```
+```
 
 ### Deploying the front end
 
@@ -59,11 +57,11 @@ npm install
 yarn
 ```
 
-4. Open __src/aws-exports-example.js__ and update with the outputs from CDK.
+4. Open **src/aws-exports-example.js** and update with the outputs from CDK.
 
-5. Rename __aws-exports-example.js__ to __aws-exports.js__.
+5. Rename **aws-exports-example.js** to **aws-exports.js**.
 
-5. Run the app
+6. Run the app
 
 ```sh
 npm start
